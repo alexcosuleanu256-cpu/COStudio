@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C97A"/>
+      <stop offset="100%" style="stop-color:#9A7328"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background negru cu colt rotunjit -->
+  <rect width="64" height="64" rx="12" fill="#0A0A0A"/>
+
+  <!-- Border auriu subtil -->
+  <rect width="64" height="64" rx="12" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.6"/>
+
+  <!-- Text "CO" auriu, centrat -->
+  <text
+    x="32"
+    y="44"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="900"
+    font-size="30"
+    fill="url(#gold)"
+    letter-spacing="-1"
+  >CO</text>
+</svg>
